@@ -7,6 +7,7 @@ public class StackApp {
         tumpukan.tampil();
         tumpukan.push(30);
         tumpukan.tampil();
+        System.out.println("Nilai teratas  = "+tumpukan.peek());
         System.out.println("Nama  lengkap saya adalah = Moh.Faizal Ilham Falakh ");
         System.out.println("Nilai yang dihapus  = "+tumpukan.pop());
         tumpukan.tampil();
