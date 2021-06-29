@@ -3,7 +3,7 @@ public class QueueApp {
     public static void main(String[] args) {
         var antrian = new Queue(10);
         
-        antrian.masuk(50);
+        antrian.masuk(59); //NIM 20090086
         antrian.lihat();
         antrian.masuk(60);
         antrian.lihat();
